@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sun System</title>
     <style>
-        /* Den Hintergrund schwarz machen */
+       
         body {
             background-color: black;
-            color: white; /* Textfarbe weiß für besseren Kontrast */
+            color: white;
             margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-family: Arial, sans-serif; /* Optionale Schriftart */
+            font-family: Arial, sans-serif; 
             height: 100vh;
             overflow: hidden;
         }
 
-        /* Inhalt zentrieren */
+        
         .content {
             text-align: center;
         }
 
-        /* Planeten-Buttons in flexbox anordnen */
+        
         .planet-buttons {
             display: flex;
             flex-wrap: wrap;
@@ -33,7 +33,7 @@
             margin-top: 20px;
         }
 
-        /* Jede Planeten-Kachel */
+      
         .planet {
             display: flex;
             flex-direction: column;
@@ -44,13 +44,13 @@
             transition: transform 0.2s, border-color 0.2s;
         }
 
-        /* Vergrößern der Kachel beim Hover */
+       
         .planet:hover {
-            transform: scale(1.1); /* Vergrößern beim Hover */
-            border-color: lightgray; /* Helle Farbe beim Hover */
+            transform: scale(1.1); 
+            border-color: lightgray; 
         }
 
-        /* Kacheln der Planeten als runde Buttons */
+      
         .planet a {
             width: 100px;
             height: 100px;
@@ -63,7 +63,7 @@
         .planet a img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Bildfüllung */
+            object-fit: cover; 
         }
 
         .planet span {
