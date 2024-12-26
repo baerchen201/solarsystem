@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "format": "prettier . -w"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.0.10",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0"
+  },
+  "pre-commit": [
+    "format"
+  ]
+}
